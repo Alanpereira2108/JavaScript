@@ -175,3 +175,86 @@ else if (data==7){
 else{
     console.log("Dia inválido")
 }
+
+let idadeDirigir = 19;
+let CNH = true;
+let temCarro = false;
+
+if(idadeDirigir >= 18 && CNH == true && temCarro == true){
+    console.log("Você Pode Dirigir!")
+}else{
+    console.log("Você Não pode dirigir")
+}
+
+let eh_professor = false;
+let eh_aluno = false;
+
+if(eh_professor == true || eh_aluno == true){
+    console.log("Você tem direito a meia-entrada!")
+}else{
+    console.log("Você não tem direito a meia-entrada!")
+}
+
+//&& = e
+//|| = ou
+
+
+//Exercício 1
+
+let num_inv = 10;
+
+if(num_inv <= 11 || num_inv >= 49 ){
+    console.log("Não está no inventário")
+}else{
+    console.log("Está no inventário")
+}
+
+//2
+
+let cIdade =23;
+
+if(cIdade > 16 && cIdade < 24 ){
+    console.log("Está selecionado")
+}else{
+    console.log("Não está selecionado")
+}
+
+//3 
+
+let assinante = false
+let = compra200 = 200
+
+if(assinante == true || compra200 >= 200){
+    console.log("Frete grátis")
+}else{
+    console.log("Sem frete grátis")
+}
+
+
+
+//4
+
+let diaSemana = "Domingo"
+
+if(diaSemana == "Sábado" || diaSemana == "Domingo"){
+    console.log("Fim de semana")
+}else{
+    console.log("Dia útil")
+}
+
+//5
+
+let cupom= false
+let assinante2 = false
+let compra150 = 150
+
+const desconto = (compra150 >=150 && assinante2 == true || cupom == true)
+
+if(desconto){
+    total = compra150 * 0.85
+    console.log("15% de desconto")
+}else{
+    total = compra150
+    console.log("Sem desconto")
+}
+console.log("Total Final = $" + compra150.toFixed(2))
