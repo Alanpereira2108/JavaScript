@@ -244,9 +244,9 @@ if(diaSemana == "Sábado" || diaSemana == "Domingo"){
 
 //5
 
-let cupom= false
 let assinante2 = false
 let compra150 = 150
+let cupom= true
 
 const desconto = (compra150 >=150 && assinante2 == true || cupom == true)
 
@@ -257,4 +257,4 @@ if(desconto){
     total = compra150
     console.log("Sem desconto")
 }
-console.log("Total Final = $" + compra150.toFixed(2))
+console.log("Total Final = R$" + total.toFixed(2))
